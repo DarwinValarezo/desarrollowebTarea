@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario de 5 preguntas</title>
+    </head>
+    <body>
+        <h2>Formulario de Información Personal</h2>
+        <form action="procesar.php" method="POST">
+            
+            <label>Nombre</label><br>
+            <input type="text" name="nombre" required><br><br>
+    
+            <label>Edad</label><br>
+            <input type="number" name="edad" required><br><br>
+    
+            <label> correo electrónico</label><br>
+            <input type="email" name="correo" required><br><br>
+    
+            <label>Ciudad o País</label><br>
+            <input type="text" name="pais" required><br><br>
+    
+            <label>A que te dedicas</label><br>
+            <textarea name="hobbies" rows="4" cols="50" required></textarea><br><br>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </body>   
+</html>
