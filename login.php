@@ -25,10 +25,10 @@ if ($resultado->num_rows === 1) {
         header("Location: bienvenida.php");
         exit();
     } else {
-        echo "❌ Contraseña incorrecta.";
+        echo "Contraseña incorrecta.";
     }
 } else {
-    echo "❌ Usuario no encontrado.";
+    echo "Usuario no encontrado.";
 }
 
 $stmt->close();

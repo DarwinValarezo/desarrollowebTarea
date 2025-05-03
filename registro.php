@@ -20,9 +20,9 @@ $stmt = $conexion->prepare($sql);
 $stmt->bind_param("sssss", $usuario, $contrasena, $email, $nombre, $telefono);
 
 if ($stmt->execute()) {
-    echo "✅ Registro exitoso. <a href='login.html'>Iniciar sesión</a>";
+    echo "Registro exitoso. <a href='login.html'>Iniciar sesión</a>";
 } else {
-    echo "❌ Error al registrar: " . $stmt->error;
+    echo "Error al registrar: " . $stmt->error;
 }
 
 
