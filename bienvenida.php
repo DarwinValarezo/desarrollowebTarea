@@ -8,3 +8,5 @@ if (!isset($_SESSION['usuario'])) {
 
 <h2>Bienvenido, <?php echo $_SESSION['usuario']; ?>!</h2>
 <a href="logout.php">Cerrar sesión</a>
+
+
